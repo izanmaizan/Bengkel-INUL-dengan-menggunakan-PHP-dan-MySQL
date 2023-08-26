@@ -1,0 +1,147 @@
+/* Additional styles for this page */
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.entry-container {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-top: 50px;
+}
+
+.entry-header {
+    background: #f9ca24;
+    padding: 20px 0;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.entry-form {
+    background: #f2f2f2;
+    font-weight: bold;
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.entry-form th {
+    padding: 10px;
+    text-align: left;
+}
+
+.entry-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.entry-form input[type="submit"],
+.entry-form button {
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #fbff00;
+    font-weight: bold;
+    color: #333; /* Change text color for better contrast */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.entry-form input[type="submit"]:hover,
+.entry-form button:hover {
+    background-color: #e1c400;
+}
+
+/* Additional style for table background */
+.entry-form table {
+    background-color: #f2f2f2;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    border: none; /* Tambahkan ini untuk menghilangkan border */
+}
+
+.entry-form th,
+.entry-form td {
+    padding: 12px;
+    /* border: 1px solid #ddd; */ /* Komentari atau hapus baris ini untuk menghilangkan border */
+    text-align: center;
+}
+/* Responsive design adjustments */
+@media screen and (max-width: 600px) {
+    .entry-container {
+        padding: 10px;
+    }
+
+    .entry-form th,
+    .entry-form td {
+        padding: 8px;
+    }
+}
+
+/* Style for submit and back buttons */
+.btn-submit,
+.btn-back {
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-submit {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn-back {
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-submit:hover {
+    background-color: #2980b9;
+}
+
+.btn-back:hover {
+    background-color: #c0392b;
+}
+
+
+.edit-data {
+    /* Ganti properti sesuai keinginan untuk mempercantik tombol "Edit Data" */
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.kembali {
+    /* Ganti properti sesuai keinginan untuk mempercantik tautan "Kembali" */
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+}

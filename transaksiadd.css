@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 400px;
+}
+
+h2 {
+    background-color: #ffc107;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    border-radius: 8px 8px 0 0;
+}
+
+form {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: none;
+    /* Tambahkan ini untuk menghilangkan border pada tabel */
+}
+
+th,
+td {
+    padding: 10px;
+    border-top: none;
+    /* Tambahkan ini untuk menghilangkan border atas pada sel-sel */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Ganti warna latar belakang tombol "Simpan Data" menjadi biru */
+input[type="submit"],
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    /* Warna biru untuk tombol "Simpan Data" */
+}
+
+button {
+    background-color: #27ae60;
+    /* Warna hijau untuk tombol "Kembali" */
+}
+
+/* Efek hover */
+input[type="submit"]:hover {
+    background-color: #2980b9;
+    /* Warna biru lebih terang saat dihover */
+}
+
+button:hover {
+    background-color: #218f3f;
+    /* Warna hijau lebih terang saat dihover */
+}
